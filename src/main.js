@@ -15,7 +15,7 @@ Vue.use(VueMaterial)
 Vue.use(VueGoodTablePlugin)
 
 const base = axios.create({
-  baseURL: "http://localhost:5000"
+  baseURL: "https://immense-beach-93581.herokuapp.com" //"http://localhost:5000"
 });
 
 Vue.prototype.$http = base;
